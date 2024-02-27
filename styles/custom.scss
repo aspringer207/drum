@@ -18,7 +18,6 @@ $dark-gray: #454d4c;
 
 
 
-
 $theme-colors: map-merge($theme-colors, ("lemon": #dbdb7d,
             "papaya": #e89285,
             "grape": #ab7ddb,
@@ -29,4 +28,4 @@ $theme-colors: map-merge($theme-colors, ("lemon": #dbdb7d,
         ));
 
 // Layout & components
-@import "node_modules/bootstrap/scss/bootstrap.scss"
+@import "./bootstrap/scss/bootstrap.scss"
