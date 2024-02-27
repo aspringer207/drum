@@ -1,0 +1,173 @@
+/*------------------------------------
+- COLOR Melon
+------------------------------------*/
+
+$melon_t1: #b1e3a3;
+$melon_t2: #8fd77b;
+$melon_t3: #117107;
+$melon_t4: #12810d;
+$melon_t5: #61c645;
+$melon_t6: #85d370;
+$melon_t7: #99da87;
+$melon_t8: #4ba632;
+$melon_t9: #C0C0C0;
+
+$melon_shadow: rgba(177, 227, 163, 0.5);
+$melon_text_color_dark_bright: #212529;
+
+
+.alert-Melon {
+    color: $melon_t5;
+    background-color: $melon_t9;
+    border-color: $melon_t4;
+}
+
+.alert-Melon hr {
+    border-top-color: $melon_t3;
+}
+
+.alert-Melon .alert-link {
+    color: $melon_t8;
+}
+
+.badge-Melon {
+    color: $melon_text_color_dark_bright;
+    background-color: $melon_t1;
+}
+
+.badge-Melon[href]:hover,
+.badge-Melon[href]:focus {
+    color: $melon_text_color_dark_bright;
+    background-color: $melon_t2;
+}
+
+.bg-Melon {
+    background-color: $melon_t1 !important;
+}
+
+a.bg-Melon:hover,
+a.bg-Melon:focus,
+button.bg-Melon:hover,
+button.bg-Melon:focus {
+    background-color: $melon_t2 !important;
+}
+
+.border-Melon {
+    border-color: $melon_t1 !important;
+}
+
+.btn-Melon {
+    color: $melon_text_color_dark_bright;
+    background-color: $melon_t1;
+    border-color: $melon_t1;
+}
+
+.btn-Melon:hover {
+    color: $melon_text_color_dark_bright;
+    background-color: $melon_t7;
+    border-color: $melon_t2;
+}
+
+.btn-Melon:focus,
+.btn-Melon.focus {
+    box-shadow: 0 0 0 0.2rem $melon_shadow;
+}
+
+.btn-Melon.disabled,
+.btn-Melon:disabled {
+    color: $melon_text_color_dark_bright;
+    background-color: $melon_t1;
+    border-color: $melon_t1;
+}
+
+.btn-Melon:not(:disabled):not(.disabled):active,
+.btn-Melon:not(:disabled):not(.disabled).active,
+.show>.btn-Melon.dropdown-toggle {
+    color: $melon_text_color_dark_bright;
+    background-color: $melon_t2;
+    border-color: $melon_t6;
+}
+
+.btn-Melon:not(:disabled):not(.disabled):active:focus,
+.btn-Melon:not(:disabled):not(.disabled).active:focus,
+.show>.btn-Melon.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem $melon_shadow;
+}
+
+.btn-outline-Melon {
+    color: $melon_t1;
+    background-color: transparent;
+    border-color: $melon_t1;
+}
+
+.btn-outline-Melon:hover {
+    color: $melon_text_color_dark_bright;
+    background-color: $melon_t1;
+    border-color: $melon_t1;
+}
+
+.btn-outline-Melon:focus,
+.btn-outline-Melon.focus {
+    box-shadow: 0 0 0 0.2rem $melon_shadow;
+}
+
+.btn-outline-Melon.disabled,
+.btn-outline-Melon:disabled {
+    color: $melon_t1;
+    background-color: transparent;
+}
+
+.btn-outline-Melon:not(:disabled):not(.disabled):active,
+.btn-outline-Melon:not(:disabled):not(.disabled).active,
+.show>.btn-outline-Melon.dropdown-toggle {
+    color: $melon_text_color_dark_bright;
+    background-color: $melon_t1;
+    border-color: $melon_t1;
+}
+
+.btn-outline-Melon:not(:disabled):not(.disabled):active:focus,
+.btn-outline-Melon:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-Melon.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem $melon_shadow;
+}
+
+.list-group-item-Melon {
+    color: $melon_t5;
+    background-color: $melon_t4;
+}
+
+.list-group-item-Melon.list-group-item-action:hover,
+.list-group-item-Melon.list-group-item-action:focus {
+    color: $melon_t5;
+    background-color: $melon_t3;
+}
+
+.list-group-item-Melon.list-group-item-action.active {
+    color: $melon_text_color_dark_bright;
+    background-color: $melon_t5;
+    border-color: $melon_t5;
+}
+
+.table-Melon,
+.table-Melon>th,
+.table-Melon>td {
+    background-color: $melon_t4;
+}
+
+.table-hover .table-Melon:hover {
+    background-color: $melon_t3;
+}
+
+.table-hover .table-Melon:hover>td,
+.table-hover .table-Melon:hover>th {
+    background-color: $melon_t3;
+}
+
+.text-Melon {
+    color: $melon_t1 !important;
+}
+
+a.text-Melon:hover,
+a.text-Melon:focus {
+    color: $melon_t2 !important;
+}

@@ -1,0 +1,173 @@
+/*------------------------------------
+- COLOR grape
+------------------------------------*/
+
+$grape_t1: #ab7ddb;
+$grape_t2: #9155cf;
+$grape_t3: #fbf8fd;
+$grape_t4: #10710c102;
+$grape_t5: #6d30ad;
+$grape_t6: #8949cc;
+$grape_t7: #9861d3;
+$grape_t8: #542485;
+$grape_t9: #11211c107;
+
+$grape_shadow: rgba(171, 125, 219, 0.5);
+$grape_text_color_dark_bright: #212529;
+
+
+.alert-grape {
+    color: $grape_t5;
+    background-color: $grape_t9;
+    border-color: $grape_t4;
+}
+
+.alert-grape hr {
+    border-top-color: $grape_t3;
+}
+
+.alert-grape .alert-link {
+    color: $grape_t8;
+}
+
+.badge-grape {
+    color: $grape_text_color_dark_bright;
+    background-color: $grape_t1;
+}
+
+.badge-grape[href]:hover,
+.badge-grape[href]:focus {
+    color: $grape_text_color_dark_bright;
+    background-color: $grape_t2;
+}
+
+.bg-grape {
+    background-color: $grape_t1 !important;
+}
+
+a.bg-grape:hover,
+a.bg-grape:focus,
+button.bg-grape:hover,
+button.bg-grape:focus {
+    background-color: $grape_t2 !important;
+}
+
+.border-grape {
+    border-color: $grape_t1 !important;
+}
+
+.btn-grape {
+    color: $grape_text_color_dark_bright;
+    background-color: $grape_t1;
+    border-color: $grape_t1;
+}
+
+.btn-grape:hover {
+    color: $grape_text_color_dark_bright;
+    background-color: $grape_t7;
+    border-color: $grape_t2;
+}
+
+.btn-grape:focus,
+.btn-grape.focus {
+    box-shadow: 0 0 0 0.2rem $grape_shadow;
+}
+
+.btn-grape.disabled,
+.btn-grape:disabled {
+    color: $grape_text_color_dark_bright;
+    background-color: $grape_t1;
+    border-color: $grape_t1;
+}
+
+.btn-grape:not(:disabled):not(.disabled):active,
+.btn-grape:not(:disabled):not(.disabled).active,
+.show>.btn-grape.dropdown-toggle {
+    color: $grape_text_color_dark_bright;
+    background-color: $grape_t2;
+    border-color: $grape_t6;
+}
+
+.btn-grape:not(:disabled):not(.disabled):active:focus,
+.btn-grape:not(:disabled):not(.disabled).active:focus,
+.show>.btn-grape.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem $grape_shadow;
+}
+
+.btn-outline-grape {
+    color: $grape_t1;
+    background-color: transparent;
+    border-color: $grape_t1;
+}
+
+.btn-outline-grape:hover {
+    color: $grape_text_color_dark_bright;
+    background-color: $grape_t1;
+    border-color: $grape_t1;
+}
+
+.btn-outline-grape:focus,
+.btn-outline-grape.focus {
+    box-shadow: 0 0 0 0.2rem $grape_shadow;
+}
+
+.btn-outline-grape.disabled,
+.btn-outline-grape:disabled {
+    color: $grape_t1;
+    background-color: transparent;
+}
+
+.btn-outline-grape:not(:disabled):not(.disabled):active,
+.btn-outline-grape:not(:disabled):not(.disabled).active,
+.show>.btn-outline-grape.dropdown-toggle {
+    color: $grape_text_color_dark_bright;
+    background-color: $grape_t1;
+    border-color: $grape_t1;
+}
+
+.btn-outline-grape:not(:disabled):not(.disabled):active:focus,
+.btn-outline-grape:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-grape.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem $grape_shadow;
+}
+
+.list-group-item-grape {
+    color: $grape_t5;
+    background-color: $grape_t4;
+}
+
+.list-group-item-grape.list-group-item-action:hover,
+.list-group-item-grape.list-group-item-action:focus {
+    color: $grape_t5;
+    background-color: $grape_t3;
+}
+
+.list-group-item-grape.list-group-item-action.active {
+    color: $grape_text_color_dark_bright;
+    background-color: $grape_t5;
+    border-color: $grape_t5;
+}
+
+.table-grape,
+.table-grape>th,
+.table-grape>td {
+    background-color: $grape_t4;
+}
+
+.table-hover .table-grape:hover {
+    background-color: $grape_t3;
+}
+
+.table-hover .table-grape:hover>td,
+.table-hover .table-grape:hover>th {
+    background-color: $grape_t3;
+}
+
+.text-grape {
+    color: $grape_t1 !important;
+}
+
+a.text-grape:hover,
+a.text-grape:focus {
+    color: $grape_t2 !important;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "drumpadfcc",
+  "version": "1.0.0",
+  "description": "freeCodeCamp drumpad project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Springer",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "sass": "^1.71.1"
+  }
+}

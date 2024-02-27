@@ -1,0 +1,173 @@
+/*------------------------------------
+- COLOR berry
+------------------------------------*/
+
+$berry_t1: #7ddbd0;
+$berry_t2: #55cfc1;
+$berry_t3: #f8fdfc;
+$berry_t4: #10c1A3;
+$berry_t5: #30ad9e;
+$berry_t6: #49ccbd;
+$berry_t7: #61d3c5;
+$berry_t8: #24857a;
+$berry_t9: #116b6A;
+
+$berry_shadow: rgba(125, 219, 208, 0.5);
+$berry_text_color_dark_bright: #212529;
+
+
+.alert-berry {
+    color: $berry_t5;
+    background-color: $berry_t9;
+    border-color: $berry_t4;
+}
+
+.alert-berry hr {
+    border-top-color: $berry_t3;
+}
+
+.alert-berry .alert-link {
+    color: $berry_t8;
+}
+
+.badge-berry {
+    color: $berry_text_color_dark_bright;
+    background-color: $berry_t1;
+}
+
+.badge-berry[href]:hover,
+.badge-berry[href]:focus {
+    color: $berry_text_color_dark_bright;
+    background-color: $berry_t2;
+}
+
+.bg-berry {
+    background-color: $berry_t1 !important;
+}
+
+a.bg-berry:hover,
+a.bg-berry:focus,
+button.bg-berry:hover,
+button.bg-berry:focus {
+    background-color: $berry_t2 !important;
+}
+
+.border-berry {
+    border-color: $berry_t1 !important;
+}
+
+.btn-berry {
+    color: $berry_text_color_dark_bright;
+    background-color: $berry_t1;
+    border-color: $berry_t1;
+}
+
+.btn-berry:hover {
+    color: $berry_text_color_dark_bright;
+    background-color: $berry_t7;
+    border-color: $berry_t2;
+}
+
+.btn-berry:focus,
+.btn-berry.focus {
+    box-shadow: 0 0 0 0.2rem $berry_shadow;
+}
+
+.btn-berry.disabled,
+.btn-berry:disabled {
+    color: $berry_text_color_dark_bright;
+    background-color: $berry_t1;
+    border-color: $berry_t1;
+}
+
+.btn-berry:not(:disabled):not(.disabled):active,
+.btn-berry:not(:disabled):not(.disabled).active,
+.show>.btn-berry.dropdown-toggle {
+    color: $berry_text_color_dark_bright;
+    background-color: $berry_t2;
+    border-color: $berry_t6;
+}
+
+.btn-berry:not(:disabled):not(.disabled):active:focus,
+.btn-berry:not(:disabled):not(.disabled).active:focus,
+.show>.btn-berry.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem $berry_shadow;
+}
+
+.btn-outline-berry {
+    color: $berry_t1;
+    background-color: transparent;
+    border-color: $berry_t1;
+}
+
+.btn-outline-berry:hover {
+    color: $berry_text_color_dark_bright;
+    background-color: $berry_t1;
+    border-color: $berry_t1;
+}
+
+.btn-outline-berry:focus,
+.btn-outline-berry.focus {
+    box-shadow: 0 0 0 0.2rem $berry_shadow;
+}
+
+.btn-outline-berry.disabled,
+.btn-outline-berry:disabled {
+    color: $berry_t1;
+    background-color: transparent;
+}
+
+.btn-outline-berry:not(:disabled):not(.disabled):active,
+.btn-outline-berry:not(:disabled):not(.disabled).active,
+.show>.btn-outline-berry.dropdown-toggle {
+    color: $berry_text_color_dark_bright;
+    background-color: $berry_t1;
+    border-color: $berry_t1;
+}
+
+.btn-outline-berry:not(:disabled):not(.disabled):active:focus,
+.btn-outline-berry:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-berry.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem $berry_shadow;
+}
+
+.list-group-item-berry {
+    color: $berry_t5;
+    background-color: $berry_t4;
+}
+
+.list-group-item-berry.list-group-item-action:hover,
+.list-group-item-berry.list-group-item-action:focus {
+    color: $berry_t5;
+    background-color: $berry_t3;
+}
+
+.list-group-item-berry.list-group-item-action.active {
+    color: $berry_text_color_dark_bright;
+    background-color: $berry_t5;
+    border-color: $berry_t5;
+}
+
+.table-berry,
+.table-berry>th,
+.table-berry>td {
+    background-color: $berry_t4;
+}
+
+.table-hover .table-berry:hover {
+    background-color: $berry_t3;
+}
+
+.table-hover .table-berry:hover>td,
+.table-hover .table-berry:hover>th {
+    background-color: $berry_t3;
+}
+
+.text-berry {
+    color: $berry_t1 !important;
+}
+
+a.text-berry:hover,
+a.text-berry:focus {
+    color: $berry_t2 !important;
+}

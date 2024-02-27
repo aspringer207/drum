@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="custom.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="wrapper" class="App">
+            <div class="box">
+                <div class="mr">
+                    <div class="slider">
+                        <label for="customRange3" class="form-label">Example range</label>
+<input type="range" class="form-range" min="0" max="1" step="0.1" id="customRange3">
+                    </div>
+                    <div id="clips"></div>
+                </div>
+            </div>
+            <div class="box btn-box">
+                <div class="mr">
+                    <button id="sticks" class="btn-papaya sticks" type="button" value="q" onclick="{handleClick}">Q</button>
+                    <button id="crash" class="crash" type="button" value="w" onclick="{handleClick}" variant="danger">W</button>
+                    <button id="crash2" class="crash" type="button" value="e" onclick="{handleClick}" variant="success">E</button>
+                </div>
+
+                <div class="mr">
+                    <button id="hihatopen" class="hihat" value="a" onclick="{handleClick}" type="button" variant="info">A</button>
+                    <button id="hihatclosed" class="hihat" value="s" onclick="{handleClick}" type="button">S</button>
+                    <button id="ride" class="ride" value="d" type="button" onclick="{handleClick}" variant="warning">D</button>
+                </div>
+
+                <div class="mr">
+                    <button id="snare" class="snare" value="z" type="button" onclick="{handleClick}" variant="warning">Z</button>
+                    <button id="kick" class="kick" value="x" type="button" onclick="{handleClick}" variant="danger">X</button>
+                    <button id="tom" class="tom" value="c" type="button" onclick="{handleClick}" variant="info">C</button>
+                    <button id="tom2" class="tom" value="v" type="button" onclick="{handleClick}" variant="info">C</button>
+                </div>
+            </div>
+            <audio id="q" volume="{setVolume}" src="./src/sound/sticks.mp3"></audio>
+            <audio id="w" volume="{setVolume}" src="./src/sound/crash.mp3"></audio>
+            <audio id="e" volume="{setVolume}" src="./src/sound/crash2.mp3"></audio>
+            <audio id="a" volume="{setVolume}" src="./src/sound/hihatopen.mp3"></audio>
+            <audio id="s" volume="{setVolume}" src="./src/sound/hihatclosed.mp3"></audio>
+            <audio id="d" volume="{setVolume}" src="./src/sound/ride.mp3"></audio>
+            <audio id="z" volume="{setVolume}" src="./src/sound/snare.mp3"></audio>
+            <audio id="x" volume="{setVolume}" src="./src/sound/kick.mp3"></audio>
+            <audio id="c" volume="{setVolume}" src="./src/sound/tom.mp3"></audio>
+
+            <script src="keydown.js"></script>
+        </div>
+    </body>
+
+
+</html>

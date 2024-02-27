@@ -1,0 +1,32 @@
+// scss-docs-start import-stack
+// Configuration
+@import "node_modules/bootstrap/scss/_functions.scss";
+$lemon: #dbdb7d;
+$papaya: #ee7b58;
+$berry: #7ddbd0;
+$grape: #ab7ddb;
+$melon: #b1e3a3;
+$light-gray: #c0c0c0;
+$dark-gray: #454d4c;
+
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/_variables-dark";
+@import "node_modules/bootstrap/scss/_maps";
+@import "node_modules/bootstrap/scss/_mixins";
+@import "node_modules/bootstrap/scss/_utilities";
+
+
+
+
+
+$theme-colors: map-merge($theme-colors, ("lemon": #dbdb7d,
+            "papaya": #e89285,
+            "grape": #ab7ddb,
+            "melon": #b1e3a3,
+            "berry": #7ddbd0,
+            "light-gray": #c0c0c0,
+            "dark-gray": #454d4c,
+        ));
+
+// Layout & components
+@import "node_modules/bootstrap/scss/bootstrap.scss"
