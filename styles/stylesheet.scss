@@ -1,20 +1,4 @@
-@import "custom.scss";
+@import "./custom.scss";
 
+button{ color: dark;}
 
-.wrapper {
-    .box {
-        .btn-box {
-            .mr {
-                button.sticks {
-                    color: #454d4c;
-                    background-color: $melon;
-                }
-
-                button.crash {
-                    color: #454d4c;
-                    background-color: $papaya;
-                }
-            }
-        }
-    }
-}
