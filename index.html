@@ -57,15 +57,17 @@
                 </div>
             </div>
             <div class="d-flex row">
-                <audio id="q" volume="{setVolume}" src="./src/sound/sticks.mp3"></audio>
-                <audio id="w" volume="{setVolume}" src="./src/sound/crash.mp3"></audio>
-                <audio id="e" volume="{setVolume}" src="./src/sound/crash2.mp3"></audio>
-                <audio id="a" volume="{setVolume}" src="./src/sound/hihatopen.mp3"></audio>
-                <audio id="s" volume="{setVolume}" src="./src/sound/hihatclosed.mp3"></audio>
-                <audio id="d" volume="{setVolume}" src="./src/sound/ride.mp3"></audio>
-                <audio id="z" volume="{setVolume}" src="./src/sound/snare.mp3"></audio>
-                <audio id="x" volume="{setVolume}" src="./src/sound/kick.mp3"></audio>
-                <audio id="c" volume="{setVolume}" src="./src/sound/tom.mp3"></audio>
+                <audio crossorigin="anonymous" volume="{setVolume()}">
+                <source id="q" type="source/mp3" volume="{setVolume}"  src="https://github.com/aspringer207/drum/blob/06f5fc92b9897473f794e50a2022fd56a085978f/src/crash.mp3">
+                <source id="w" type="source/mp3" volume="{setVolume}" src="https://github.com/aspringer207/drum/blob/06f5fc92b9897473f794e50a2022fd56a085978f/src/crash.mp3">
+                <source id="e" type="source/mp3" volume="{setVolume}" src="https://github.com/aspringer207/drum/blob/06f5fc92b9897473f794e50a2022fd56a085978f/src/crash2.mp3">
+                <source id="a" type="source/mp3" volume="{setVolume}" src="https://github.com/aspringer207/drum/blob/06f5fc92b9897473f794e50a2022fd56a085978f/src/hihatopen.mp3">
+                <source id="s" type="source/mp3" volume="{setVolume}" src="https://github.com/aspringer207/drum/blob/06f5fc92b9897473f794e50a2022fd56a085978f/src/hihatclosed.mp3">
+                <source id="d" type="source/mp3" volume="{setVolume}" src="https://github.com/aspringer207/drum/blob/06f5fc92b9897473f794e50a2022fd56a085978f/src/ride.mp3">
+                <source id="z" type="source/mp3" volume="{setVolume}" src="https://github.com/aspringer207/drum/blob/06f5fc92b9897473f794e50a2022fd56a085978f/src/snare.mp3">
+                <source id="x" type="source/mp3" volume="{setVolume}" src="https://github.com/aspringer207/drum/blob/06f5fc92b9897473f794e50a2022fd56a085978f/src/kick.mp3">
+                <source id="c" type="source/mp3" volume="{setVolume}" src="https://github.com/aspringer207/drum/blob/06f5fc92b9897473f794e50a2022fd56a085978f/src/tom.mp3">
+            </audio>
             </div>
         </div>
         <script src="./script.js"></script>
